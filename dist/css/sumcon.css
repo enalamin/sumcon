@@ -1,0 +1,25 @@
+
+@media print{
+	h2.printheadertitle{
+	background-color: #d2d6de;
+	padding: 10px 15px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight:bold;
+	margin-top:-20px;
+	border: 1px solid #d2d6de;
+	-webkit-print-color-adjust: exact;
+}
+}
+.printheadertitle{
+	background-color: #d2d6de;	padding: 5px 10px;	text-align: center;	text-transform: uppercase;	font-weight:bold;	font-size: 16px;
+	margin-top:-20px;	-webkit-print-color-adjust: exact;	}
+.tableheader{
+	border-left:1px solid;border-top:1px solid;border-bottom:1px solid;text-align:center;
+}
+.tableheader-right{
+	border-left:1px solid;border-top:1px solid;border-bottom:1px solid;border-right:1px solid;text-align:center;
+}
+.signatory{
+	font-weight: bold;text-decoration: underline;
+}
